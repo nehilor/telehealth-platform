@@ -1,0 +1,41 @@
+{
+      "name": "telehealth-platform",
+      "private": true,
+      "version": "0.0.0",
+      "type": "module",
+      "scripts": {
+            "dev": "next dev",
+            "build": "next build",
+            "start": "next start",
+            "lint": "next lint"
+      },
+      "dependencies": {
+            "@material-tailwind/react": "^2.1.9",
+            "@paypal/checkout-server-sdk": "^1.0.3",
+            "@paypal/paypal-js": "^8.1.3",
+            "chart.js": "^4.4.7",
+            "firebase": "^10.5.0",
+            "i18next": "^23.7.0",
+            "jsonwebtoken": "^9.0.2",
+            "next": "^14.0.0",
+            "next-auth": "^4.24.11",
+            "paypal-rest-sdk": "^1.8.1",
+            "pg": "^8.11.3",
+            "react": "^18.2.0",
+            "react-chartjs-2": "^5.3.0",
+            "react-dom": "^18.2.0",
+            "react-i18next": "^13.2.2",
+            "twilio": "^4.12.0"
+      },
+      "devDependencies": {
+            "@types/node": "^20.8.0",
+            "@types/react": "^18.2.0",
+            "@types/react-dom": "^18.2.0",
+            "autoprefixer": "^10.4.0",
+            "eslint": "^8.0.0",
+            "eslint-config-next": "14.0.0",
+            "postcss": "^8.4.0",
+            "tailwindcss": "^3.3.0",
+            "typescript": "^5.2.0"
+      }
+}
